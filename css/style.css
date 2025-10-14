@@ -49,15 +49,46 @@ footer {
   flex-shrink: 0;
   background-color: #000000;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .logo{
     height: 40px;
     width: 40px;
-    margin-top: 3px;
-    margin-left: 5px;
+  margin: 5px;
     /* padding: 3px 8px; */
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .playlist{display: none;}
+.home-text{display: none;}
+.cerca-text{display: none;}
+.libreria-text{display: none;}
+
+.home{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    /* font-size: 1.5rem; */
+}
+.cerca{
+    margin: 0 10px;
+    /* font-size: 1.5rem; */
+}
+.la-tua-libreria{
+    margin: 0 10px;
+    /* font-size: 1.5rem; */
+}
+.download{
+    margin: 0 auto;
+    /* font-size: 0.1rem; */
+    width: calc(100% / 3);
+}
+.profile{
+    margin: 0 10px;
+    /* font-size: 1.5rem; */
+    /* filter: brightness(0) invert(1); */
+}
