@@ -118,14 +118,22 @@ footer {
 
 .profile {
     margin: 0 10px;
-}
+    display: flex;
+align-items: center;
+margin-bottom: 20px;}
 
 
 /* Main */
+.main-content{
+    overflow-y: auto;
+}
+
 .header-main {
-    display: flex;
+    width: 100%;
+    position: fixed;
+    /* display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center; */
 }
 
 .effettua-upgrade {
@@ -134,5 +142,30 @@ footer {
     padding: 8px 25px;
     color: white;
     text-decoration: none;
-    margin-right: 20px;
+    position: absolute;
+    right: 18%;
+    top: 15%;
+    z-index: 99999;
 }
+.griglia-scopri{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    justify-content: center;
+}
+.scopri{
+    width: calc(100% / 4);
+}
+.griglia-canzoni{
+    display: flex;
+    flex-wrap: wrap;
+}
+.album{
+    width: calc(100% / 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{color: white;}
+.album img{padding: 10px;}
