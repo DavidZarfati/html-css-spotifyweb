@@ -83,6 +83,7 @@ footer img {
     align-items: center;
     font-size: 1.5rem;
     color: white;
+    padding-top: 20px;
 }
 
 .fa-play-circle {
@@ -162,13 +163,24 @@ footer img {
     display: none;
     margin-left: 10px;
 }
-
+.home img{
+    margin-left: 15px;
+}
 .home {
     margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 0;
 }
+.bordo-home{
+     border-left: 1px solid lightgreen;
+     display: none;
+     height: 30px;
+     margin-left: -15px;
+}
+ /* .home::before{
+    border-left: 1px solid green;
+ } */
 
 .cerca {
     margin: 0 15px;
@@ -264,8 +276,9 @@ footer img {
     justify-content: center;
 }
 .bordo-verde{
-    border-bottom: 1px solid lightgreen;
-    width: 50%;
+    border-bottom: 1px solid rgb(68, 241, 68);
+    width: 30%;
+    margin: 5px auto;
 }
 
 .scopri {
@@ -287,8 +300,25 @@ footer img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-
+.play-hover{
+    position: absolute;
+    left: 35%;
+    bottom: 50%;
+    color: white;
+    font-size: 3.5rem;
+    opacity: 0;
+    
+}
+.album:hover .play-hover{
+    opacity: 1;
+    z-index: 10;
+    
+}
+.album:hover img{
+    filter: brightness(0.5);
+}
 h3 {
     color: white;
 }
@@ -381,3 +411,30 @@ h3 {
 }
 
 
+/* .playlist-wrapper{overflow-y: auto;} */
+.scopri:hover{
+    color: white;
+}
+li:hover{
+    color: white;
+}
+span:hover{
+    color: white;
+}
+h4:hover{
+    color: white;
+text-decoration: underline;
+}
+h5:hover{
+    color: white;
+    text-decoration: underline;
+}
+.album:hover i{
+    color: white;
+}
+.media-player:hover .progress-fill{
+    background-color: lightgreen;
+}
+.media-player-small:hover .progress-fill-small{
+    background-color: lightgreen;
+}
