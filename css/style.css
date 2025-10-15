@@ -160,6 +160,7 @@ footer img {
 
 .profile-text {
     display: none;
+    margin-left: 10px;
 }
 
 .home {
@@ -310,7 +311,19 @@ h3 {
     color: gray;
     font-size: 0.8rem;
 }
+.artisti{
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+}
+.artisti-sottotesto{
+    color: gray;
+    font-size: 0.8rem;
+}
 
+.cerchio{
+    border-radius: 50%;
+}
 /* Test Barra Canzone */
 
 .media-player {
