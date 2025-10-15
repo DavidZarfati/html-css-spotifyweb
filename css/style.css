@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: montserrat;
 }
 
 img {
@@ -34,7 +35,7 @@ main {
 
 /* Main */
 .content {
-    width: 100%;
+    width:100%;
     overflow: auto;
     background-color: #141922;
 }
@@ -229,6 +230,9 @@ footer img {
 .scopri {
     width: calc(100% / 4);
     padding-bottom: 20px;
+     text-transform: uppercase;
+     font-size: 0.8rem;
+     text-align: center;
 }
 
 .griglia-canzoni {
