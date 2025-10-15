@@ -46,6 +46,7 @@ main {
 .header-main {
     height: 100px;
     background-color: #080b12;
+    z-index: 1000;
 }
 
 /* Fine Main */
@@ -437,4 +438,16 @@ h5:hover{
 }
 .media-player-small:hover .progress-fill-small{
     background-color: lightgreen;
+}
+i:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.effettua-upgrade:hover{
+    transform: scale(1.2);
+    margin-right: 3%;
+}
+
+.home::before{
+
 }
