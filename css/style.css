@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: montserrat;
 }
 
 img {
@@ -12,6 +11,7 @@ img {
 /* Utilities */
 body {
     color: gray;
+      font-family: "Montserrat", sans-serif;
 }
 
 .wrapper {
@@ -36,7 +36,7 @@ main {
 /* Main */
 .content {
     width:100%;
-    overflow: auto;
+    overflow-y: auto;
     background-color: #141922;
 }
 
@@ -176,7 +176,7 @@ footer img {
 
 .download {
     margin: 0 auto;
-    width: calc(100% / 3);
+    /* width: calc(100% / 2); */
 }
 
 .profile {
@@ -189,6 +189,39 @@ footer img {
 .profile img {
     background: gray;
     border-radius: 50%;
+}
+.fa-plus{
+    background-color: gray;
+    color: black;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.plus-playlist{
+    display: flex;
+    /* justify-content: center; */
+    /* width: 150px; */
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    display: none;
+}
+.playlist{
+    margin-left: 15px;
+}
+.h3-play{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: none;
+}
+.nome-playlist{
+    margin-left: 15px;
+    list-style: none;
+    display: none;
+}
+.nome-playlist li{
+    margin-bottom: 15px;
 }
 
 
