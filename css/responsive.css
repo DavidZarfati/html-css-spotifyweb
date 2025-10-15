@@ -120,8 +120,17 @@
     .nome-playlist {
         display: block;
     }
-
-
+.creatoper{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.creatoper-sottotesto{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.album img {
+    padding: 30px;
+}
 
 
 
@@ -139,7 +148,32 @@
     .scopri {
         width: calc(100% / 5);
     }
+.album {
+    width: calc(100% / 4);
+}
+.album img {
+    padding: 10px;
+}
+.recentlyplayed {
+   margin-bottom: 20px;
+}
+
+
 
 }
 
-@media screen and (min-width: 1100px) {}
+@media screen and (min-width: 1100px) {
+     .scopri {
+        width: calc(100% / 6);
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+.main-content{
+    padding-top:100px
+}
+.album {
+    width: calc(100% / 6);
+}
+
+
+}
