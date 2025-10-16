@@ -125,6 +125,9 @@
 
 
 @media screen and (min-width: 600px) {
+    .barra-canzone{
+        width: 100%;
+    }
     .footer-centro {
         width: 40%;
         transform: scale(1);
@@ -294,7 +297,7 @@
 
     .plus-playlist {
 
-        display: inline-block;
+        display: flex;
     }
 
     .h3-play {
@@ -303,6 +306,7 @@
 
     .nome-playlist {
         display: block;
+        padding-top: 120px;
     }
 
     .creatoper {
@@ -332,6 +336,12 @@
     .bordo-home {
         display: block;
     }
+.volume-control{
+    width: 60%;
+}
+.media-player-small{
+    width: 100%;
+}
 
 
 }
