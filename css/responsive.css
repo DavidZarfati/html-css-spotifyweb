@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 390px) {
     body {
         background-color: black;
     }
@@ -8,9 +8,8 @@
         margin: 0 auto;
     }
 
-    .testo-footer h5{
+    .testo-footer h5 {
         display: none;
-        /* margin-left: -25px; */
     }
 
     .testo-footer h4 {
@@ -21,11 +20,13 @@
     .like {
         display: none;
     }
-.footer-sinistra{
-    display: flex;
-    flex-direction: column;
-    /* margin-left: -10px; */
-}
+
+    .footer-sinistra {
+        display: flex;
+        flex-direction: column;
+        /* margin-left: -10px; */
+    }
+
     .footer-sinistra img {
         width: 50px;
         margin-bottom: 10px;
@@ -37,8 +38,8 @@
     }
 
     .footer-centro {
-        width: 100%;
-        transform: scale(3.5);
+        width: 70%;
+        transform: scale(3);
         margin-top: 25px;
     }
 
@@ -124,6 +125,37 @@
 
 
 @media screen and (min-width: 600px) {
+    .footer-centro {
+        width: 40%;
+        transform: scale(1);
+        margin-top: 25px;
+    }
+.album{
+    margin: 0;
+    width: calc(100% / 2);
+    padding: 15px;
+}
+    .foto-footer {
+        transform: scale(1);
+    }
+
+    .testo-footer h5 {
+        display: inline;
+    }
+
+    .footer-centro {
+        margin-top: 0;
+    }
+.progress-bar{width: 100px;}
+    .footer-sinistra {
+        /* display: inline-block; */
+        flex-direction: row;
+    }
+
+    .footer-destra {
+        display: flex;
+    }
+
     .bottoni-footer {
         /* transform: scale(0.5); */
         font-size: 1.5rem;
@@ -294,7 +326,7 @@
     }
 
     .album img {
-        padding: 30px;
+        /* padding: 30px; */
     }
 
     .bordo-home {
@@ -319,10 +351,11 @@
 
     .album {
         width: calc(100% / 4);
+        padding: 10px;
     }
 
     .album img {
-        padding: 10px;
+        /* padding: 10px; */
     }
 
     .recentlyplayed {
