@@ -150,7 +150,7 @@ footer img {
 .logo {
     height: 40px;
     width: 40px;
-    margin: 5px;
+    padding: 5px;
     /* padding: 3px 8px; */
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
@@ -356,8 +356,8 @@ h3 {
     color: white;
 }
 
-.album img {
-    padding: 20px;
+.album {
+    padding: 5px;
 }
 
 .recentlyplayed {
