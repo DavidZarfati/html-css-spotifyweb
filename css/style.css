@@ -165,7 +165,7 @@ footer img {
     margin-left: 10px;
 }
 .home img{
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 .home {
     margin-top: 15px;
@@ -448,6 +448,3 @@ i:hover{
     margin-right: 3%;
 }
 
-.home::before{
-
-}
