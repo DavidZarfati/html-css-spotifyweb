@@ -503,3 +503,11 @@ i:hover {
     z-index: 99999;
     background-color: black;
 }
+.scroll-bar img{
+        opacity: 0.6;
+}
+
+.scrollbar-superiore .active{
+    color: white;
+    opacity: 1;
+}
