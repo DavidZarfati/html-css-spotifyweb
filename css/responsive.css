@@ -2,10 +2,15 @@
     .scroll-bar {
         width: 200px;
     }
-
+.sidebar-info {
+    left: 0;
+    position: fixed;
+    bottom: 7%;
+    width: 200px;
+}
     .logo {
         /* height: 100px; */
-        width: 100%;
+        width: 160px;
         background-size: contain;
         background-image: url(../img/logo.svg);
         margin: 20px;
