@@ -1,13 +1,159 @@
+@media screen and (min-width: 400px) {
+    body {
+        background-color: black;
+    }
+
+    .album {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .testo-footer h5{
+        display: none;
+        /* margin-left: -25px; */
+    }
+
+    .testo-footer h4 {
+        display: inline;
+        font-size: 1.5rem;
+    }
+
+    .like {
+        display: none;
+    }
+.footer-sinistra{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: -10px; */
+}
+    .footer-sinistra img {
+        width: 50px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .footer-destra {
+        display: none;
+    }
+
+    .footer-centro {
+        width: 100%;
+        transform: scale(3.5);
+        margin-top: 25px;
+    }
+
+    .effettua-upgrade {
+        right: 85px;
+    }
+
+    .scopri {
+        width: 50%;
+        padding-top: 8px;
+    }
+
+    .bordo-verde {
+        margin: 1px auto;
+    }
+
+    .griglia-scopri {
+        padding: 0;
+    }
+
+    .bottoni-footer {
+        /* transform: scale(0.5); */
+        font-size: 0.7rem;
+    }
+
+    .bottoni-footer .fa-play-circle {
+        font-size: 0.8rem;
+    }
+
+    .media-player {
+        transform: scale(0.8);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .scroll-bar {
+        height: calc(100% - 100px);
+    }
+
+    .sidebar-info {
+        left: 0;
+        bottom: 100px;
+    }
+
+    .progress-bar {
+        width: 0;
+    }
+
+    .footer-sinistra {
+        transform: scale(0.8);
+    }
+
+    .footer-destra {
+        transform: scale(0.8);
+    }
+
+    .foto-footer {
+        transform: scale(1.5);
+    }
+
+    .testo-footer {
+        transform: scale(0.8);
+        margin-left: 18px;
+    }
+
+    .scrollbar-superiore img {
+        width: 30px;
+    }
+
+    .logo {
+        margin-left: 5px;
+    }
+
+    .cerca {
+        margin: 0 10px;
+    }
+}
+
+
+
+
+
+
 @media screen and (min-width: 600px) {
+    .bottoni-footer {
+        /* transform: scale(0.5); */
+        font-size: 1.5rem;
+    }
+
+    .bottoni-footer .fa-play-circle {
+        font-size: 1.5rem;
+    }
+
+    .media-player {
+        transform: scale(1);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+
+
+
     .scroll-bar {
         width: 200px;
     }
-.sidebar-info {
-    left: 0;
-    position: fixed;
-    bottom: 7%;
-    width: 200px;
-}
+
+    .sidebar-info {
+        left: 0;
+        position: fixed;
+        bottom: 7%;
+        width: 200px;
+    }
+
     .logo {
         /* height: 100px; */
         width: 160px;
