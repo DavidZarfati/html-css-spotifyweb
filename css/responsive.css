@@ -125,19 +125,26 @@
 
 
 @media screen and (min-width: 600px) {
-    .barra-canzone{
+    .like {
+        display: flex;
+    }
+
+    .barra-canzone {
         width: 100%;
     }
+
     .footer-centro {
         width: 40%;
         transform: scale(1);
         margin-top: 25px;
     }
-.album{
-    margin: 0;
-    width: calc(100% / 2);
-    padding: 15px;
-}
+
+    .album {
+        margin: 0;
+        width: calc(100% / 2);
+        padding: 15px;
+    }
+
     .foto-footer {
         transform: scale(1);
     }
@@ -149,7 +156,11 @@
     .footer-centro {
         margin-top: 0;
     }
-.progress-bar{width: 100px;}
+
+    .progress-bar {
+        width: 100px;
+    }
+
     .footer-sinistra {
         /* display: inline-block; */
         flex-direction: row;
@@ -248,7 +259,7 @@
 
     .profile {
         border-top: 1px solid gray;
-        padding: 10px;
+        padding: 10%;
     }
 
     .home {
@@ -336,12 +347,14 @@
     .bordo-home {
         display: block;
     }
-.volume-control{
-    width: 60%;
-}
-.media-player-small{
-    width: 100%;
-}
+
+    .volume-control {
+        width: 60%;
+    }
+
+    .media-player-small {
+        width: 100%;
+    }
 
 
 }
